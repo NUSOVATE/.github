@@ -60,7 +60,7 @@ Berikut adalah beberapa proyek yang telah kami kerjakan:
 Apakah Anda membutuhkan solusi teknologi untuk bisnis Anda? Kami siap membantu! Hubungi kami untuk diskusi lebih lanjut tentang kebutuhan Anda.
 
 ### **Cara Menghubungi Kami**
-- **Website**: [nusovate.com](https://nusovate.com)
+- **Website**: [nusovate.com](https://nusovate.tech)
 - **Email**: contact@nusovate.com
 - **LinkedIn**: [linkedin.com/company/nusovate](https://www.linkedin.com/company/nusovate)
 - **Instagram**: [@nusovate](https://instagram.com/nusovate)
