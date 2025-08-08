@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NusoAI - Democratizing AI Access | A Nusovate Project</title>
+    <meta name="description" content="NusoAI by Nusovate - Your gateway to multiple AI models. Access GPT-4, Claude, Gemini, and more through one unified platform.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <span class="logo-text">NusoAI</span>
+                <span class="powered-by">by Nusovate</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#models" class="nav-link">AI Models</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button class="btn btn-primary">Start Chat</button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-element floating-1"></div>
+            <div class="floating-element floating-2"></div>
+            <div class="floating-element floating-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <div class="status-dot"></div>
+                    Democratizing AI Access Since 2024
+                </div>
+                <h1 class="hero-title">
+                    Your Gateway to
+                    <span class="gradient-text">Multiple AI Models</span>
+                </h1>
+                <p class="hero-description">
+                    Access GPT-4, Claude, Gemini, and more through one unified platform. 
+                    Smart quota management, transparent pricing, and seamless experience.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary btn-large">
+                        <i class="fas fa-rocket"></i>
+                        Start Free Trial
+                    </button>
+                    <button class="btn btn-secondary btn-large">
+                        <i class="fas fa-play"></i>
+                        Watch Demo
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Active Users</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1M+</span>
+                        <span class="stat-label">Messages</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">AI Models</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Features</div>
+                <h2 class="section-title">Why Choose NusoAI?</h2>
+                <p class="section-description">
+                    Experience the power of unified AI access with our comprehensive platform features.
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3 class="feature-title">Unified Access</h3>
+                    <p class="feature-description">Access multiple AI models through one simple interface. No more juggling between different platforms.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="feature-title">Smart Quota Management</h3>
+                    <p class="feature-description">Intelligent quota distribution across models ensures optimal usage and cost efficiency.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3 class="feature-title">Transparent Pricing</h3>
+                    <p class="feature-description">Clear, upfront pricing with no hidden fees. Pay only for what you use.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="feature-title">Lightning Fast</h3>
+                    <p class="feature-description">Optimized infrastructure ensures quick response times across all supported models.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Enterprise Security</h3>
+                    <p class="feature-description">Bank-grade security with end-to-end encryption and data privacy protection.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="feature-title">Developer Friendly</h3>
+                    <p class="feature-description">Comprehensive APIs and SDKs for seamless integration into your applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Models Section -->
+    <section id="models" class="models">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">AI Models</div>
+                <h2 class="section-title">Supported AI Models</h2>
+                <p class="section-description">
+                    Access the world's most advanced AI models through our unified platform.
+                </p>
+            </div>
+            <div class="models-grid">
+                <div class="model-card">
+                    <div class="model-header">
+                        <div class="model-icon gpt-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3 class="model-name">GPT-4</h3>
+                    </div>
+                    <p class="model-description">OpenAI's most advanced language model with superior reasoning capabilities.</p>
+                    <div class="model-features">
+                        <span class="model-tag">Text Generation</span>
+                        <span class="model-tag">Code Analysis</span>
+                        <span class="model-tag">Creative Writing</span>
+                    </div>
+                </div>
+                <div class="model-card">
+                    <div class="model-header">
+                        <div class="model-icon claude-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 class="model-name">Claude</h3>
+                    </div>
+                    <p class="model-description">Anthropic's AI assistant known for helpful, harmless, and honest responses.</p>
+                    <div class="model-features">
+                        <span class="model-tag">Long Context</span>
+                        <span class="model-tag">Analysis</span>
+                        <span class="model-tag">Safety First</span>
+                    </div>
+                </div>
+                <div class="model-card">
+                    <div class="model-header">
+                        <div class="model-icon gemini-icon">
+                            <i class="fas fa-gem"></i>
+                        </div>
+                        <h3 class="model-name">Gemini</h3>
+                    </div>
+                    <p class="model-description">Google's multimodal AI model with exceptional reasoning and understanding.</p>
+                    <div class="model-features">
+                        <span class="model-tag">Multimodal</span>
+                        <span class="model-tag">Fast Response</span>
+                        <span class="model-tag">Image Analysis</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Pricing</div>
+                <h2 class="section-title">Simple, Transparent Pricing</h2>
+                <p class="section-description">
+                    Choose the plan that fits your needs. All plans include access to all AI models.
+                </p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Starter</h3>
+                        <div class="pricing-price">
+                            <span class="price-currency">$</span>
+                            <span class="price-amount">9</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 10,000 tokens/month</li>
+                        <li><i class="fas fa-check"></i> Access to all models</li>
+                        <li><i class="fas fa-check"></i> Basic support</li>
+                        <li><i class="fas fa-check"></i> Web interface</li>
+                    </ul>
+                    <button class="btn btn-outline">Get Started</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Professional</h3>
+                        <div class="pricing-price">
+                            <span class="price-currency">$</span>
+                            <span class="price-amount">29</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 100,000 tokens/month</li>
+                        <li><i class="fas fa-check"></i> Access to all models</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                        <li><i class="fas fa-check"></i> API access</li>
+                        <li><i class="fas fa-check"></i> Usage analytics</li>
+                    </ul>
+                    <button class="btn btn-primary">Get Started</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="pricing-title">Enterprise</h3>
+                        <div class="pricing-price">
+                            <span class="price-currency">$</span>
+                            <span class="price-amount">99</span>
+                            <span class="price-period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 500,000 tokens/month</li>
+                        <li><i class="fas fa-check"></i> Access to all models</li>
+                        <li><i class="fas fa-check"></i> 24/7 dedicated support</li>
+                        <li><i class="fas fa-check"></i> Full API access</li>
+                        <li><i class="fas fa-check"></i> Advanced analytics</li>
+                        <li><i class="fas fa-check"></i> Custom integrations</li>
+                    </ul>
+                    <button class="btn btn-outline">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-badge">About NusoAI</div>
+                    <h2 class="section-title">Democratizing AI Access</h2>
+                    <p class="about-description">
+                        NusoAI is a project by <strong>Nusovate</strong>, designed to make cutting-edge AI accessible to everyone. 
+                        We believe that powerful AI capabilities shouldn't be locked behind complex APIs or prohibitive pricing.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <i class="fas fa-target"></i>
+                            <div>
+                                <h4>Our Mission</h4>
+                                <p>To democratize access to advanced AI models through a unified, transparent platform.</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <i class="fas fa-eye"></i>
+                            <div>
+                                <h4>Our Vision</h4>
+                                <p>A world where AI enhances human productivity and creativity for everyone.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Contact</div>
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-description">
+                    Ready to get started? Contact us for more information or support.
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Nusovate</h3>
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <div>
+                            <h4>Instagram</h4>
+                            <a href="https://www.instagram.com/nusovate.id" target="_blank">@nusovate.id</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:nusovate@gmail.com">nusovate@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>Services</h4>
+                            <p>Web Apps • Mobile Apps • Desktop Systems • AI Solutions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <span class="logo-text">NusoAI</span>
+                    </div>
+                    <p class="footer-description">
+                        Your gateway to multiple AI models. Built by Nusovate for the future of AI accessibility.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/nusovate.id" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="mailto:nusovate@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <ul>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#models">AI Models</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#">API Docs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NusoAI by Nusovate. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
